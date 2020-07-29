@@ -1,0 +1,29 @@
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Keto</title>
+</head>
+<body style="background-color:powderblue";"font-size:160%;">
+
+<body>
+	<h1 style="background-color:tomato; color:green; font-family:garamond;">I enjoy Keto diet a lot and want to share my recipes with you!</h1>
+	
+		
+	<img alt="Elif Ecer" src="UMD Day.JPG" width="12%" align="left">
+	<h2 style="color:tomato; font-family:garamond;"> My keto journey …</h2>
+		<p style="font-size:20px">
+	My name is Elif. I am originally from Turkey. I moved to the states when I was 17 years old. I enjoy going out with my friends and trying different cuisines. Up until three months ago, I did not pay attention to the signs that my body was giving to certain foods such as milk and bread.  	
+	<div style="font-size:20px">The doctors told me that I have lactose intolerance, type 2 diabetes which runs in the family, IBS and the list goes on. Each specialist that I saw restricted my diet and I did not know what to eat. I was frustrated from trying different diets and not being able to stick to any one of them. </div>
+<h2 style="color:tomato; font-family:garamond;">How did I start Keto?</h2> 
+<p style="font-size:20px">
+One day, my friend suggested me to try a diet called keto. At first, I did not pay attention to her but as I see the change in her mood and body, I looked into it. I’ve read books and articles about its benefits and decided to give it a try.
+</p>
+<h2 style="color:tomato; font-family:garamond;">It was easy!</h2>
+<p style="font-size:20px">
+I stopped eating sugar, flour, rice and pasta! This time was different because I did not want to eat any sweets after lunch or dinner. It was working so I continued. I created different recipes so that I do not feel as if I am missing anything. I felt much better as I changed my eating habits and as my ketos increased! 
+	</p>
+	</p>
+	</body>
+</html>
+	
