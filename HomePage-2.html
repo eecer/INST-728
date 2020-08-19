@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keto</title>
+	 <style>
+		.container{
+			width:100%;
+			margin:auto;
+			background-color: beige;
+			padding:10px;
+		}
+		
+		nav{
+			background-color :green;
+			width:100%;
+			vertical-align: top; 
+  display: inline-block;
+		}
+		
+		nav a:hover {
+		  background-color: beige;
+		}
+		
+		
+		
+		nav a{
+			display : block;
+			text-decoration : none;
+			color : tomato;
+			text-align : center;
+			padding : 20px; <!-- increade width of navigatioon bar -->
+			position:relative;
+		}
+		
+		
+		nav ul {
+  margin: 0;
+  padding:0;
+  list-style: none;
+  position: relative;
+}
+		nav li{ <!--All list items -->
+		display:block; <!--set the list items left to right -->
+		position:relative; <!--set the origin for the child boxed to be positioned from -->
+		float:left;
+		
+		
+		}
+		
+		nav ul li{
+			list-style-type:none;
+			display:inline-block;<!--This will display the menu horizontally -->
+			padding-right: 400px; <!--Create space between the menu options -->
+			
+		}
+		
+		nav li ul{
+		display:none;
+position:absolute;
+		}
+		
+		nav ul ul { <!--lists within the lists like drop down menu-->
+			position: absolute; <!--place them over the top of everything -->
+			left:0px;
+			top:100%
+			background-color:red;
+			display: none; <!--hide them-->
+			padding:0px;
+			
+		}
+		
+		/*nav li: hover ul{ <!--when lists are hovered over, do this to the lists contained within them-->
+		
+			display: block; <!--show them-->
+			background-color: red;
+			
+		
+		} */
+		
+	
+
+
+
+	
+nav li:hover>ul {
+display:block;
+position:relative;
+left: auto;
+
+}		
+		
+		
+		.header-container{
+            background-color: tomato;
+            color: tomato;
+			font-family: garamond;
+			font-size: 40px;
+			padding:5px;
+            height: auto;
+            border: 5px dashed green;
+			
+			}
+		
+		
+		#content{
+			background-color : beige;
+			width : 60%;
+			float : left; <!--Place texts on the left side -->
+			height : auto;
+            padding-bottom : 300px;           
+			
+		}
+		
+		#sidemenu{
+			width : 40%;
+			float : right;
+			background-color : beige;
+            height : auto;
+			display: block;			
+		
+		}
+		
+		.main-container {
+			background-color : beige;
+			height : 100%;
+			width: 100%;
+            margin: auto;
+		
+		}
+			
+				
+		
+		
+		.footer-container{
+			clear : both;
+			background-color : #FBEEEE;
+			padding : 10px;\text-align: center;
+            color: black;
+            border: 2px solid green;
+			
+		}
+		
+		.clear-fix{
+			clear : both;
+		}
+		
+		
+       	
+        body{
+            background-color: lightgreen;
+			font-size: 160%;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom: 400px;
+        }
+        
+        	
+		
+		h1 {
+		background-color: tomato;
+		color: green;
+		font-family: garamond;
+		font-size: 45px;
+		padding:5px;
+		}
+		
+		h2{
+		color:tomato;
+		font-family: garamond;
+		padding:5px;
+		text-decoration: underline;
+				
+		}
+		p{
+		font-size: 20px;
+		font-family: garamond;
+		padding: 5px;
+		
+		}
+		
+		img {
+  border-radius: 40px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+    
+    </style>
+</head>
+<body>
+<div class="container">
+		
+		<div class="header-container">
+			<header>
+			<h1>I enjoy Keto diet a lot and want to share my recipes with you!</h1>
+			
+			</header>
+			<!--Navigation Bar -->
+				<nav>  <!--A bunch of unordered lists -->
+					<ul>
+						<li><a href="#"> Home </a></li>
+						<li><a href="whatisketo.html"> What is Keto?</a></li>
+						<li><a href="shoppinglist.html"> Shopping List</a></li>
+						<li><a href="#"> Recipes </a>
+							<ul>
+							<li> <a href="desserts.html"> Desserts </a></li>
+							<li> <a href="maindishes.html"> Main Dishes </a></li>
+							</ul>
+						</li>
+						<li><a href="resources.html"> Resources</a></li>
+					</ul>
+				</nav>
+</div>
+	
+		<div class="main-container">
+			<div id="content">
+			<!-- Content Area-->
+				<h2> My Keto Journey …</h2>
+		<p> My name is Elif. I am originally from Turkey. I moved to the states in 1999. I enjoy going out with my friends and trying different cuisines. Up until the beginning of 2020, I did not pay attention to the signs that my body was giving to certain foods such as milk and bread.  	
+	The doctors told me that I have lactose intolerance, type 2 diabetes which runs in the family, IBS and the list goes on. Each specialist that I saw restricted my diet and I did not know what to eat. I was frustrated from trying different diets and not being able to stick to any one of them. </p>
+				
+				<h2>How Did I Start Keto?</h2> 
+		<p> One day, my friend suggested me to try a diet called Keto. At first, I was skeptical, but as I see the change in my friend’s mood and health, I looked into it. I’ve read books and articles about its benefits and decided to give it a try.</p>
+				
+				<h2>It was easy!</h2>
+		<p>I stopped eating sugar, flour, rice and pasta! This time was different because I did not want to eat any sweets after lunch or dinner. It was working so I continued. I created different recipes so that I do not feel as if I am missing anything. I felt much better as I changed my eating habits and as my ketos increased! </p>
+	
+								
+			</div>
+			<aside id="sidemenu">
+				<img alt="Elif Ecer" src="UMD Day.JPG" width="75%" align="right">
+			</aside>
+		</div>
+<div class="footer-container">
+		<footer> <div>(c) of UMD iSchool </div></footer>
+		</div>
+	</div>
+</body>
+
+</html>		
+	
+	
+	
+	</body>
+</html>
+	
